@@ -8,9 +8,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<Error404 />} />
+        <Route path="/initiation-react/" element={<Home />} />
+        <Route path="/initiation-react/about" element={<About />} />
+        <Route path="/initiation-react/*" element={<Error404 />} />
       </Routes>
     </BrowserRouter>
   );
