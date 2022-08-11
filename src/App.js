@@ -6,7 +6,7 @@ import Error404 from "./pages/Error404";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/initiation-react">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
