@@ -1,7 +1,6 @@
 {
   "name": "cours-react-1",
   "version": "0.1.0",
-  "homepage": "https://samy-belarbi.github.io/initiation-react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
